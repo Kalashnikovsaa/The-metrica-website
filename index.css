@@ -3,16 +3,36 @@ body {
   width: 100%;
 }
 
+section {
+  padding: 150px 125px 0 125px;
+}
+
+.section:first-child {
+  margin-top: 0;
+}
+
+.section-black {
+  background-color: black;
+}
+
+.section-black h1,
+h2,
+h3 {
+  color: #fff;
+}
+
+.section-long {
+  padding-bottom: 150px;
+}
+
 .container {
   margin: 0 auto;
-  box-sizing: border-box;
-  width: 1150px;
-  height: 650px;
-  background: #fff;
+  width: 1400px;
   padding: 125px;
 }
 
 .interior {
+  position: relative;
   margin-top: 30px;
   padding-left: 40px;
   width: 1150px;
@@ -22,8 +42,9 @@ body {
 }
 
 .image-text {
-  padding-top: 379px;
-  font-weight: 400;
+  position: absolute;
+  left: 40px;
+  bottom: 40px;
   font-size: 20px;
   letter-spacing: -0.03em;
   color: #fff;
@@ -32,40 +53,107 @@ body {
 }
 
 h1 {
-  font-weight: 400;
   font-size: 60px;
   line-height: 100%;
   letter-spacing: -0.03em;
-  color: var(--text);
 }
 
 h2 {
-  font-weight: 400;
   font-size: 18px;
   letter-spacing: -0.03em;
   text-transform: uppercase;
-  color: var(--text);
+}
+
+h3 {
+  font-size: 30px;
+  letter-spacing: -0.03em;
 }
 
 .the company {
-  font-weight: 400;
   font-size: 45px;
   letter-spacing: -0.03em;
-  color: var(--text);
 }
 p {
-  font-weight: 400;
+  width: 1051px;
   font-size: 45px;
   letter-spacing: -0.03em;
-  color: var(--text);
   margin-top: 30px;
 }
 
-a {
+.form-service {
   background-color: #ad1818;
+  text-decoration: none;
   padding: 20px 40px;
   display: inline-block;
   margin-top: 30px;
   color: #ffffff;
   border-radius: 5px;
+  cursor: pointer;
+}
+
+.item {
+  width: 1150px;
+  margin-bottom: 90px;
+}
+
+.Projects {
+  margin-bottom: 30px;
+  color: black;
+}
+
+.item-text {
+  font-size: 30px;
+  letter-spacing: -0.03em;
+  color: #121212;
+  margin-bottom: 15px;
+}
+.form-details {
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: -0.03em;
+  color: #ad1818;
+}
+
+.btn {
+  display: block;
+  width: 1150px;
+  height: 153px;
+  line-height: 153px;
+  border: 1px solid #ad1818;
+  border-radius: 5px;
+  text-decoration: none;
+  text-align: center;
+  color: #ad1818;
+  font-size: 30px;
+  letter-spacing: -0.03em;
+}
+.btn:hover {
+  background-color: #ad1818;
+  color: #fff;
+}
+
+.section-black {
+  background-color: black;
+  padding: 150px 125px 0 125px;
+  height: 1844px;
+}
+
+.section-black h2 {
+  color: #fff;
+}
+
+.service {
+  margin-top: 34px;
+}
+
+.service .service {
+  margin-top: 60px;
+}
+
+.service :first-child {
+  margin-top: 0;
+}
+
+.service__image {
+  margin-bottom: 15px;
 }
