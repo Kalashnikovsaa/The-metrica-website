@@ -1,159 +1,131 @@
-body {
-  font-family: "Manrope", sans-serif;
-  width: 100%;
-}
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Метрика</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <header>
+      <img
+        class="logo"
+        src="resorses/logo.png"
+        alt="логотип компании Метрика"
+      />
+      <nav>
+        <a class="nav__link" href="">О НАС</a>
+        <a class="nav__link" href="">ПРОЕКТЫ</a>
+        <a class="nav__link" href="">УСЛУГИ</a>
+        <a class="nav__link" href="">КОНТАКТЫ</a>
+      </nav>
+    </header>
 
-section {
-  padding: 150px 125px 0 125px;
-}
-
-.section:first-child {
-  margin-top: 0;
-}
-
-.section-black {
-  background-color: black;
-}
-
-.section-black h1,
-h2,
-h3 {
-  color: #fff;
-}
-
-.section-long {
-  padding-bottom: 150px;
-}
-
-.container {
-  margin: 0 auto;
-  width: 1400px;
-  padding: 125px;
-}
-
-.interior {
-  position: relative;
-  margin-top: 30px;
-  padding-left: 40px;
-  width: 1150px;
-  height: 500px;
-  background-image: url(resorses/interior.png);
-  background-repeat: no-repeat;
-}
-
-.image-text {
-  position: absolute;
-  left: 40px;
-  bottom: 40px;
-  font-size: 20px;
-  letter-spacing: -0.03em;
-  color: #fff;
-  width: 430px;
-  letter-spacing: -0.03em;
-}
-
-h1 {
-  font-size: 60px;
-  line-height: 100%;
-  letter-spacing: -0.03em;
-}
-
-h2 {
-  font-size: 18px;
-  letter-spacing: -0.03em;
-  text-transform: uppercase;
-}
-
-h3 {
-  font-size: 30px;
-  letter-spacing: -0.03em;
-}
-
-.the company {
-  font-size: 45px;
-  letter-spacing: -0.03em;
-}
-p {
-  width: 1051px;
-  font-size: 45px;
-  letter-spacing: -0.03em;
-  margin-top: 30px;
-}
-
-.form-service {
-  background-color: #ad1818;
-  text-decoration: none;
-  padding: 20px 40px;
-  display: inline-block;
-  margin-top: 30px;
-  color: #ffffff;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-.item {
-  width: 1150px;
-  margin-bottom: 90px;
-}
-
-.Projects {
-  margin-bottom: 30px;
-  color: black;
-}
-
-.item-text {
-  font-size: 30px;
-  letter-spacing: -0.03em;
-  color: #121212;
-  margin-bottom: 15px;
-}
-.form-details {
-  font-weight: 400;
-  font-size: 20px;
-  letter-spacing: -0.03em;
-  color: #ad1818;
-}
-
-.btn {
-  display: block;
-  width: 1150px;
-  height: 153px;
-  line-height: 153px;
-  border: 1px solid #ad1818;
-  border-radius: 5px;
-  text-decoration: none;
-  text-align: center;
-  color: #ad1818;
-  font-size: 30px;
-  letter-spacing: -0.03em;
-}
-.btn:hover {
-  background-color: #ad1818;
-  color: #fff;
-}
-
-.section-black {
-  background-color: black;
-  padding: 150px 125px 0 125px;
-  height: 1844px;
-}
-
-.section-black h2 {
-  color: #fff;
-}
-
-.service {
-  margin-top: 34px;
-}
-
-.service .service {
-  margin-top: 60px;
-}
-
-.service :first-child {
-  margin-top: 0;
-}
-
-.service__image {
-  margin-bottom: 15px;
-}
+    <main>
+      <div class="container">
+        <section>
+          <h1 style="width: 956px">
+            Современные и стильные интерьеры для комфортной жизни
+          </h1>
+          <div class="interior">
+            <p class="image-text">
+              Мы - команда квалифицированных дизайнеров и архитекторов,
+              занимающихся разработкой и реализацией дизайн-проектов
+            </p>
+          </div>
+        </section>
+        <section>
+          <h2>О НАС</h2>
+          <p>
+            Студия основана в 2011 году. Полностью отдаемся проектированию и
+            реализации интерьеров. К нам обращаются за уютом, индивидуальными
+            решениями и практичностью. Находим конструктивные решения для
+            каждого интерьера, вплоть до каждой детали — нацелены на результат.
+          </p>
+          <a class="form-service" href="#">Посмотреть услуги</a>
+        </section>
+        <section class="section-long">
+          <h2 class="Projects">ПРОЕКТЫ</h2>
+          <ul class="item">
+            <li class="item">
+              <img src="resorses/PRAVOBEREZHNY.png" alt="интерьер комнаты" />
+              <p class="item-text">ЖК ПРАВОБЕРЕЖНЫЙ — 112 м² — 2023</p>
+              <a class="form-details" href="#">Подробнее →</a>
+            </li>
+          </ul>
+          <ul class="item">
+            <li class="item">
+              <img src="resorses/NORWEGIAN PARK.png" alt="интерьер комнаты" />
+              <p class="item-text">ЖК НОРВЕЖСКИЙ ПАРК — 75 М² — 2023</p>
+              <a class="form-details" href="#">Подробнее →</a>
+            </li>
+          </ul>
+          <ul class="item">
+            <li class="item">
+              <img src="resorses/SOSNOVSKY LAKES.png" alt="интерьер комнаты" />
+              <p class="item-text">ЖК СОСНОВСКИЕ ОЗЕРА — 94 М² — 2022</p>
+              <a class="form-details" href="#">Подробнее →</a>
+            </li>
+          </ul>
+          <a href="#" class="btn">Смотреть все проекты</a>
+        </section>
+        <section class="section-black section-long">
+          <h2>УСЛУГИ</h2>
+          <ul class="service">
+            <li class="service">
+              <img
+                class="service__image"
+                src="resorses/Layout.png"
+                alt="карандаш на бумаге"
+              />
+              <!–придумай что-то со шрифтом–>
+              <h3>Планировочное решение — от 2500₽/м²</h3>
+            </li>
+          </ul>
+          <ul class="service">
+            <li class="service">
+              <img
+                class="service__image"
+                src="resorses/design.png"
+                alt="карандаш на бумаге"
+              />
+              <!–придумай что-то со шрифтом–>
+              <h3>Дизайн-проект — от 3000₽/м²</h3>
+            </li>
+          </ul>
+          <ul class="service">
+            <li class="service">
+              <img
+                class="service__image"
+                src="resorses/the author's.png"
+                alt="карандаш на бумаге"
+              />
+              <!–придумай что-то со шрифтом–>
+              <h3>Авторский надзор — от 30 000₽ в месяц</h3>
+            </li>
+          </ul>
+          <ul class="service">
+            <li class="service">
+              <img
+                class="service__image"
+                src="resorses/equipment.png"
+                alt="карандаш на бумаге"
+              />
+              <!–придумай что-то со шрифтом–>
+              <h3>Комплектация — 5% от стоимости спецификации</h3>
+            </li>
+          </ul>
+        </section>
+      </div>
+    </main>
+    <footer>
+      <!–задаём «подвал» сайта или раздела–>
+    </footer>
+  </body>
+</html>
