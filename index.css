@@ -1,10 +1,14 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Manrope", sans-serif;
   width: 100%;
 }
 
 section {
-  padding: 150px 125px 0 125px;
+  padding: 62.82px 125px 0 125px;
 }
 
 .section:first-of-type {
@@ -28,7 +32,6 @@ h3 {
 .container {
   margin: 0 auto;
   width: 1400px;
-  padding: 125px;
 }
 
 .interior {
@@ -61,6 +64,8 @@ h2 {
   font-size: 18px;
   letter-spacing: -0.03em;
   text-transform: uppercase;
+  color: black;
+  margin-bottom: 30px;
 }
 
 h3 {
@@ -76,7 +81,6 @@ p {
   width: 1051px;
   font-size: 45px;
   letter-spacing: -0.03em;
-  margin-top: 30px;
 }
 
 .form-service {
@@ -134,7 +138,7 @@ p {
 .section-black {
   background-color: black;
   padding: 150px 125px 0 125px;
-  height: 1844px;
+  height: 1694px;
 }
 
 .section-black h2 {
@@ -179,4 +183,85 @@ header {
 .nav__link:hover {
   opacity: 0.5;
   border-bottom: 1px solid black;
+}
+
+.fullwidthimage {
+  width: 1400px;
+  height: 717px;
+  background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0) 0.52%,
+      rgba(0, 0, 0, 0.4) 82.81%
+    ),
+    url("resorses/two-room.png");
+  background-size: cover;
+  background-position: 50%;
+}
+.text-fullwidthimage {
+  font-weight: 400;
+  font-size: 30px;
+  letter-spacing: -0.03em;
+  color: #fff;
+  padding-top: 575px;
+  padding-left: 125px;
+  margin: 0px;
+}
+.Contact__information {
+  width: 473px;
+  height: 217px;
+  padding-top: 186px;
+  margin-bottom: 150px;
+}
+
+.Contact__information:before {
+  content: "";
+  display: block;
+  width: 13px;
+  height: 22px;
+  background-image: url("/resorses/iphone.jpg");
+}
+
+.tel,
+.mail {
+  font-size: 60px;
+  line-height: 100%;
+  letter-spacing: -0.03em;
+  color: #121212;
+  text-decoration: none;
+}
+
+.footer {
+  margin: 0 auto;
+  width: 1400px;
+  height: 229px;
+  background-color: black;
+}
+
+.nav-footer {
+  text-align: center;
+  height: 25px;
+  padding-top: 60px;
+}
+
+.nav_link_footer {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.nav_link_footer:not(:first-child) {
+  margin-left: 55px; /* Задаем отступ между всеми элементами, кроме первого */
+}
+
+.name-text {
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: -0.03em;
+  color: #fff;
+  position: absolute;
+  margin-left: 509px;
+  opacity: 0.5;
+  margin-top: 87px;
 }
