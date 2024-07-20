@@ -219,6 +219,8 @@ header {
   width: 13px;
   height: 22px;
   background-image: url("resorses/iphone.jpg");
+  padding-bottom: 12px;
+  background-repeat: no-repeat;
 }
 
 .tel,
