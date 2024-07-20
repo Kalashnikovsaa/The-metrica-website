@@ -20,13 +20,12 @@
         alt="логотип компании Метрика"
       />
       <nav>
-        <a class="nav__link" href="">О НАС</a>
-        <a class="nav__link" href="">ПРОЕКТЫ</a>
-        <a class="nav__link" href="">УСЛУГИ</a>
-        <a class="nav__link" href="">КОНТАКТЫ</a>
+        <a class="nav__link" href="#description">О НАС</a>
+        <a class="nav__link" href="#Projects">ПРОЕКТЫ</a>
+        <a class="nav__link" href="#service">УСЛУГИ</a>
+        <a class="nav__link" href="#contacts">КОНТАКТЫ</a>
       </nav>
     </header>
-
     <main>
       <div class="container">
         <section>
@@ -40,7 +39,7 @@
             </p>
           </div>
         </section>
-        <section>
+        <section id="description">
           <h2>О НАС</h2>
           <p>
             Студия основана в 2011 году. Полностью отдаемся проектированию и
@@ -50,7 +49,7 @@
           </p>
           <a class="form-service" href="#">Посмотреть услуги</a>
         </section>
-        <section class="section-long">
+        <section id="Projects" class="section-long">
           <h2 class="Projects">ПРОЕКТЫ</h2>
           <ul class="item">
             <li class="item">
@@ -75,7 +74,7 @@
           </ul>
           <a href="#" class="btn">Смотреть все проекты</a>
         </section>
-        <section class="section-black section-long">
+        <section id="service" class="section-black section-long">
           <h2>УСЛУГИ</h2>
           <ul class="service">
             <li class="service">
@@ -84,7 +83,6 @@
                 src="resorses/Layout.png"
                 alt="карандаш на бумаге"
               />
-              <!–придумай что-то со шрифтом–>
               <h3>Планировочное решение — от 2500₽/м²</h3>
             </li>
           </ul>
@@ -95,7 +93,6 @@
                 src="resorses/design.png"
                 alt="карандаш на бумаге"
               />
-              <!–придумай что-то со шрифтом–>
               <h3>Дизайн-проект — от 3000₽/м²</h3>
             </li>
           </ul>
@@ -106,7 +103,6 @@
                 src="resorses/the author's.png"
                 alt="карандаш на бумаге"
               />
-              <!–придумай что-то со шрифтом–>
               <h3>Авторский надзор — от 30 000₽ в месяц</h3>
             </li>
           </ul>
@@ -117,15 +113,38 @@
                 src="resorses/equipment.png"
                 alt="карандаш на бумаге"
               />
-              <!–придумай что-то со шрифтом–>
               <h3>Комплектация — 5% от стоимости спецификации</h3>
             </li>
           </ul>
         </section>
+        <div class="fullwidthimage">
+          <p class="text-fullwidthimage">
+            Проект Двухкомнатной <br />квартиры в ЖК Лесной Пейзаж
+          </p>
+        </div>
+        <section id="contacts" class="Contact__information">
+          <h2 class="contacts">КОНТАКТЫ</h2>
+          <p class="tel">
+            <a href="tel:+79358954535">+7 935 895-45-35</a>
+          </p>
+          <p class="mail">
+            <a href="mailto:hello@mail.com">hello@mail.com</a>
+          </p>
+        </section>
       </div>
     </main>
-    <footer>
-      <!–задаём «подвал» сайта или раздела–>
+    <footer class="footer">
+      <div class="container-footer">
+        <div class="footer-inner">
+          <nav class="nav-footer">
+            <a href="#description" class="nav_link_footer">О НАС</a>
+            <a href="#Projects" class="nav_link_footer">ПРОЕКТЫ</a>
+            <a href="#service" class="nav_link_footer">УСЛУГИ</a>
+            <a href="#contacts" class="nav_link_footer">КОНТАКТЫ</a>
+          </nav>
+        </div>
+        <p class="name-text">студия дизайна интерьера Метрика — 2023</p>
+      </div>
     </footer>
   </body>
 </html>
